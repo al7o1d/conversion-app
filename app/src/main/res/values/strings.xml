@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PoundStretcher</string>
+
+    <string name="action_settings">Български</string>
+    <string name="heading">PoundStretcher</string>
+    <string name="subheading">easily convert empire\'s currency</string>
+    <string name="enter_amount_text">enter amount:</string>
+    <string name="conversion_done">Conversion done!</string>
+    <string name="no_connection">No connection</string>
+    <string name="converted_to">"converted to "</string>
+    <string name="you_like_the_rate">"You seem to like the rate"</string>
+    <string name="conversion_aborted">Conversion aborted!</string>
+    <string name="only_numeric">"Only numeric characters are allowed!"</string>
+    <string name="enter_new_value">Enter new value</string>
+    <string name="convert">convert</string>
+</resources>

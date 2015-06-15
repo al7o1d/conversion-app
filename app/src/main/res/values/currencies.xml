@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="currencies">
+        <item>Great British Pound</item>
+        <item>Bulgarian Lev</item>
+        <item>United States Dollar</item>
+        <item>Euro</item>
+        <item>Russian Ruble</item>
+    </string-array>
+</resources>

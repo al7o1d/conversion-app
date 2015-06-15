@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heading"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:typeface="monospace"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subheading"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_amount_text"
+        android:textSize="20sp"
+        android:id="@+id/textView3"
+        android:textColor="#ff6c8c90"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_toStartOf="@+id/textView4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:background="#ff8eb4b0"
+        android:layout_marginBottom="36dp"
+        android:layout_above="@+id/convert_button"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignStart="@+id/textView5" />
+
+    <Button
+        android:id="@+id/convert_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/convert"
+        android:typeface="serif"
+        android:onClick="onClickConvert"
+        android:background="#ff8eb4b0"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp" />
+
+    <Spinner
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fromSpinner"
+        android:background="#ffffffff"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:text="from"
+        android:textSize="22sp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="28dp"
+        android:layout_height="35dp"
+        android:text="to"
+        android:textSize="22sp"
+        android:id="@+id/textView5"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/fromSpinner"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toSpinner"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/fromSpinner"
+        android:background="#ffffffff"
+        android:layout_alignEnd="@+id/fromSpinner" />
+
+</RelativeLayout>

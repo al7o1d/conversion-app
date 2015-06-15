@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PoundStretcher</string>
+
+    <string name="action_settings">English</string>
+    <string name="heading">PoundStretcher</string>
+    <string name="subheading">най-лесния начин за обмяна на кралската валута</string>
+    <string name="enter_amount_text">Стойност в британски паундове:</string>
+    <string name="conversion_done">Обмяната е готова!</string>
+    <string name="no_connection">Няма връзка с интернет</string>
+    <string name="converted_to">"сменено "</string>
+    <string name="you_like_the_rate">"Май ти допада курса"</string>
+    <string name="conversion_aborted">Смяната е преустановена!</string>
+    <string name="only_numeric">"Позволени са само цифри!"</string>
+    <string name="enter_new_value">Посочи нова стойоност</string>
+    <string name="convert">смени</string>
+</resources>
