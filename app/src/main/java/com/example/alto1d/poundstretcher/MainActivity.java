@@ -49,12 +49,12 @@ public class MainActivity extends ActionBarActivity {
                 R.array.currencies, android.R.layout.simple_spinner_item);
         addItemsToSpinner(fromSpinner, fromSpinnerAdapter);
         addListenerToFromSpinner();
-
+        /*
         toSpinner = (Spinner) findViewById(R.id.toSpinner);
         ArrayAdapter<CharSequence> toSpinnerAdapter = ArrayAdapter.createFromResource(this,
                 R.array.currencies, android.R.layout.simple_spinner_item);
         addItemsToSpinner(toSpinner, toSpinnerAdapter);
-        addListenerToToSpinner();
+        addListenerToToSpinner();*/
     }
 
     public void addItemsToSpinner(Spinner sp, ArrayAdapter aa) {
@@ -222,7 +222,7 @@ class FetchRate extends AsyncTask<Void, Void, Double> {
             url = new URL(
                     "http://jsonrates.com/get/?"+
                             "from=" + MainActivity.from +
-                            "&to=" + MainActivity.to +
+                            "&to=BGN"  +
                             "&apiKey=jr-dca5843d06164ba39c97dfb92225c295"
             );
         } catch (MalformedURLException e) {
